@@ -17,3 +17,7 @@ while True:
     #asking user for its choice
     user_choice=input("What do you choose?(rock/paper/scissors/q(if you want to quit))")
     user_choice=user_choice.lower()
+
+    #checking if the user has entered any invalid input
+    if user_choice not in options and user_choice!='q':
+        print("Enter a valid option")
