@@ -22,4 +22,8 @@ while True:
     if user_choice not in options and user_choice!='q':
         print("Enter a valid option")
 
-    
+    #if not satisfied comp wins
+        
+    else:
+        print("Comp Win")
+        comp_wins+=1
