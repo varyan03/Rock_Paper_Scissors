@@ -13,3 +13,7 @@ while True:
     #generating a interger for the index of the options ,so that a random option can be assigned 
     rand_num=random.randint(0,2)
     comp_choice=options[rand_num]
+
+    #asking user for its choice
+    user_choice=input("What do you choose?(rock/paper/scissors/q(if you want to quit))")
+    user_choice=user_choice.lower()
